@@ -44,3 +44,4 @@ target_link_libraries(engine PRIVATE ZMQ ZMQPP Threads::Threads)
 
 target_include_directories(tist PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
 target_include_directories(many_client PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
+target_include_directories(engine PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
